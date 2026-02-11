@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d5a101539492e25",
+        "id": "2885160088a6d508",
         "type": "tabs",
         "children": [
           {
-            "id": "ddf7e3b0c81b02ad",
+            "id": "fb8522b697294b09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,10 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "ddf7e3b0c81b02ad",
+  "active": "fb8522b697294b09",
   "lastOpenFiles": [
-    "Web Technologies/Introduction.md",
+    "Web Technologies/HTML/Elements.md",
+    "Web Technologies/Assest/Pasted image 20260211140439.png",
+    "Web Technologies/Assest/Pasted image 20260211140611.png",
+    "Web Technologies/Assest/Pasted image 20260211140736.png",
     "Web Technologies/HTML/HTML (HyperText Markup Language).md",
+    "Web Technologies/Assest/Pasted image 20260211140855.png",
+    "Web Technologies/Assest/Pasted image 20260211140811.png",
+    "Web Technologies/Assest/Element.jpg",
+    "Web Technologies/Assest",
+    "Unconfirmed 419516.crdownload",
+    "Web Technologies/Introduction.md",
     "Welcome.md",
     "Web Technologies/HTML",
     "Web Technologies"
