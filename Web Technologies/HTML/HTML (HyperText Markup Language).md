@@ -79,3 +79,8 @@ Browser එකකට modes දෙකක් තියෙනවා:
 ### script element
 ==JavaScript code add කිරීම සඳහා භාවිතා කරන element එක.==
 ![[Pasted image 20260211145211.png]]
+
+# Favicon Icon
+==Tab එකේ title එකට ඉස්සරහින් තියෙන කුඩා image එක තමයි **favicon**.==
+![[Pasted image 20260211145812.png]]
+
