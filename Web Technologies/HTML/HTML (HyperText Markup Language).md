@@ -52,5 +52,30 @@ Browser එකකට modes දෙකක් තියෙනවා:
 
 ![[Pasted image 20260211140439.png]]
 
-# Head tag
+# head Element
+==`<head>` element එක HTML document එකක metadata (page එක ගැන information) අඩංගු කරන කොටසයි.==
+==browser එකට සහ search engines වලට information දෙන section එක.==
 
+`<head>` section එක userට directly පෙනෙන්නේ නෑ.
+
+### title element
+==Web page එකේ title එක define කරන element එක.==
+![[Pasted image 20260211144017.png]]
+### meta Element 
+==Web page එක ගැන metadata (data about data) define කරන element එක==.
+![[Pasted image 20260211144640.png]]
+✔ Sinhala / English / Special characters support කරන්න
+✔ Mobile devices වල responsive layout
+✔ Google search result description
+
+### link Element
+==External resource එකක් HTML document එකට link කරන element එක.==
+![[Pasted image 20260211144845.png]]
+
+### style Element
+==Internal CSS code ලියන්න භාවිතා කරන element එක.==
+![[Pasted image 20260211145042.png]]
+
+### script element
+==JavaScript code add කිරීම සඳහා භාවිතා කරන element එක.==
+![[Pasted image 20260211145211.png]]
