@@ -104,4 +104,68 @@ Browser එකකට modes දෙකක් තියෙනවා:
 
 ---
 
-# Semantic 
+# Semantic HTML
+
+![[semantic_photo.webp]]
+
+## Semantic
+==element එකේ name එකෙන්ම එය represent කරන content එකේ meaning එක පැහැදිලිව දක්වන elements.==
+==Semantic elements කියන්නේ content එකේ meaning browser එකට සහ developers ට පැහැදිලිව කියන HTML tags.==
+
+==Text එක **just display කරනවා නෙමෙයි**==  
+==Text එක **meaningfully define කරනවා==
+
+### Heading Tags 
+==**Heading hierarchy** define කරන්න use වෙන tags.==
+==Heading tags කියන්නේ font size control කරන්නම නෙමෙයි.==
+==ඒවා indicate කරන්නේ:  Document structure hierarchy==
+![[Pasted image 20260212214723.png]]
+
+### Paragraph Tag
+==Text content group කරලා **block level text container** ලෙස use වෙනවා.==
+![[Pasted image 20260212220029.png]]
+### Emphasis Tag
+==Text එකට **semantic emphasis** add කරනවා.==
+Usually italic ලෙස show වෙනවා.
+![[Pasted image 20260212220056.png]]
+### Strong Tag
+==Text එකට **strong importance** indicate කරනවා.==
+![[Pasted image 20260212220248.png]]
+### Presentational Tags
+![[Pasted image 20260212220401.png]]
+### Superscript
+![[Pasted image 20260212220550.png]]
+![[Pasted image 20260212220631.png]]
+### Subscript
+![[Pasted image 20260212220703.png]]
+![[Pasted image 20260212220829.png]]
+### Preformatted Text
+==Displays text **exactly as written**.==
+- Preserves spaces
+- Preserves line breaks
+![[Pasted image 20260212221431.png]]
+![[Pasted image 20260212221502.png]]
+
+### Code Tag
+==Indicates computer code.==
+![[Pasted image 20260212221630.png]]
+![[Pasted image 20260212221656.png]]
+### Address Tag
+==Contact information display.==
+![[Pasted image 20260212221823.png]]
+### Time Tag
+==Machine-readable date/time.==
+![[Pasted image 20260212221957.png]]
+### Blockquote Tag
+==Used for long quotations.==
+![[Pasted image 20260212222203.png]]
+### Mark Tag
+==Highlight text.==
+![[Pasted image 20260212222428.png]]
+![[Pasted image 20260212222503.png]]
+
+
+
+
+
+[[CSS]]

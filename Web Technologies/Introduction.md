@@ -58,3 +58,10 @@ IP address = Home address of device
 ### Addressing & Naming System (DNS)
 ==DNS converts domain names into IP addresses.==
 	google.com → 142.250.190.78
+
+
+
+
+
+
+[[HTML (HyperText Markup Language)]]

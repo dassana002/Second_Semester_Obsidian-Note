@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c5c3deef72064087",
+        "id": "fe5fef3bef6eae36",
         "type": "tabs",
         "children": [
           {
-            "id": "55b40c2c89445949",
+            "id": "97b583589d797a0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,25 +183,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "55b40c2c89445949",
+  "active": "97b583589d797a0e",
   "lastOpenFiles": [
-    "Web Technologies/Assest/semantic_photo.webp",
+    "Web Technologies/CSS/CSS.md",
+    "Web Technologies/HTML/HTML (HyperText Markup Language).md",
+    "Web Technologies/Introduction.md",
+    "Web Technologies/Assest/Pasted image 20260212221431.png",
+    "Web Technologies/Assest/Pasted image 20260212222503.png",
+    "Web Technologies/Assest/Pasted image 20260212222428.png",
+    "Web Technologies/Assest/Pasted image 20260212222203.png",
+    "Web Technologies/Assest/Pasted image 20260212221957.png",
+    "Web Technologies/Assest/Pasted image 20260212221823.png",
+    "Web Technologies/Assest/Pasted image 20260212221656.png",
+    "Web Technologies/Assest/Pasted image 20260212221630.png",
+    "Web Technologies/Assest/Pasted image 20260212221502.png",
+    "Web Technologies/Assest/Pasted image 20260212220029.png",
     "Web Technologies/Assest/Unconfirmed 29789.crdownload",
     "Web Technologies/HTML/Elements.md",
-    "Web Technologies/HTML/HTML (HyperText Markup Language).md",
-    "Pasted image 20260212211532.png",
-    "Pasted image 20260212211318.png",
-    "Pasted image 20260212211113.png",
-    "Web Technologies/Introduction.md",
-    "Web Technologies/CSS/CSS.md",
     "Web Technologies/CSS",
-    "Web Technologies/Assest/Pasted image 20260211143951.png",
-    "Web Technologies/Assest/Pasted image 20260211145812.png",
-    "Web Technologies/Assest/Pasted image 20260211145211.png",
-    "Web Technologies/Assest/Pasted image 20260211145042.png",
-    "Web Technologies/Assest/Pasted image 20260211144845.png",
-    "Web Technologies/Assest/Pasted image 20260211144640.png",
-    "Web Technologies/Assest/Pasted image 20260211144429.png",
     "Web Technologies/Assest",
     "Unconfirmed 419516.crdownload",
     "Welcome.md",
