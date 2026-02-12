@@ -4,7 +4,9 @@ standard markup language එකක්.
 
 ==Most basic building block of the web.==
 
-## HTML Element
+---
+
+# HTML Element
 
 ==HTML document එකක,==
 ==content එකක් build කරන,== 
@@ -32,6 +34,10 @@ Opening tag එක විතරයි,
 ඇතුළේ content නෑ, 
 Closing tag නෑ.==
 ![[Pasted image 20260211140611.png]]
+
+![[Pasted image 20260212211318.png]]
+
+---
 
 # <!**DOCTYPE**  html>
 ==browser එකට “මේ file එක HTML5 document එකක්” කියලා කියන declaration එකක්.==
@@ -80,7 +86,22 @@ Browser එකකට modes දෙකක් තියෙනවා:
 ==JavaScript code add කිරීම සඳහා භාවිතා කරන element එක.==
 ![[Pasted image 20260211145211.png]]
 
+
+---
+
 # Favicon Icon
 ==Tab එකේ title එකට ඉස්සරහින් තියෙන කුඩා image එක තමයි **favicon**.==
 ![[Pasted image 20260211145812.png]]
 
+![[Pasted image 20260212211532.png]]
+
+---
+
+## Comments
+![[Pasted image 20260212211113.png]]
+
+
+
+---
+
+# Semantic 

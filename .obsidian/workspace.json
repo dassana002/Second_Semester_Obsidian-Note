@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Technologies/Introduction.md",
+                "file": "Web Technologies/HTML/HTML (HyperText Markup Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "HTML (HyperText Markup Language)"
             }
           }
         ]
@@ -185,9 +185,16 @@
   },
   "active": "55b40c2c89445949",
   "lastOpenFiles": [
-    "Web Technologies/HTML/HTML (HyperText Markup Language).md",
-    "Web Technologies/Introduction.md",
+    "Web Technologies/Assest/semantic_photo.webp",
+    "Web Technologies/Assest/Unconfirmed 29789.crdownload",
     "Web Technologies/HTML/Elements.md",
+    "Web Technologies/HTML/HTML (HyperText Markup Language).md",
+    "Pasted image 20260212211532.png",
+    "Pasted image 20260212211318.png",
+    "Pasted image 20260212211113.png",
+    "Web Technologies/Introduction.md",
+    "Web Technologies/CSS/CSS.md",
+    "Web Technologies/CSS",
     "Web Technologies/Assest/Pasted image 20260211143951.png",
     "Web Technologies/Assest/Pasted image 20260211145812.png",
     "Web Technologies/Assest/Pasted image 20260211145211.png",
@@ -195,9 +202,6 @@
     "Web Technologies/Assest/Pasted image 20260211144845.png",
     "Web Technologies/Assest/Pasted image 20260211144640.png",
     "Web Technologies/Assest/Pasted image 20260211144429.png",
-    "Web Technologies/Assest/Pasted image 20260211144017.png",
-    "Web Technologies/Assest/Pasted image 20260211143936.png",
-    "Web Technologies/Assest/Pasted image 20260211140439.png",
     "Web Technologies/Assest",
     "Unconfirmed 419516.crdownload",
     "Welcome.md",
