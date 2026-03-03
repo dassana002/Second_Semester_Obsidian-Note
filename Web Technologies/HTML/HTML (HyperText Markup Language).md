@@ -165,6 +165,11 @@ Usually italic ලෙස show වෙනවා.
 ![[Pasted image 20260212222503.png]]
 
 
+## Non-Semantic
+==Non-semantic elements කියන්නේ content එකේ meaning එකක් දක්වන්නේ නැති, structure හෝ styling purpose සඳහා භාවිතා කරන elements.
+Non-semantic elements කියන්නේ tag name එකෙන් content meaning එක තේරෙන්නේ නැති HTML elements.==
+
+
 
 
 
