@@ -1,7 +1,6 @@
 ==Application එක තුළ 
-class එකක instance එකක් (object එකක්) පමණක් create වීමට allow කිරීම 
-සහ එය global access point එකක් ලෙස ලබා දීම.==
-**Singleton Design Pattern** කියන්නේ _Creational Design Pattern_ එකක්.
+**class එකක object එකක් පමණක් create වීමට allow කිරීම 
+සහ එය global access point එකක් ලෙස ලබා දීම.
 
 - `private constructor`    
 - `static instance variable`
@@ -12,10 +11,11 @@ class එකක instance එකක් (object එකක්) පමණක් crea
 - **Centralized control** – shared resource එකක් control කිරීම.
 - **Global access** – project එකේ ඕනෑම class එකකින් එකම instance එක access කිරීම.
 
-#### Example Scenarios:
+#### Using Example Scenarios:
 - Database Connection 
 	(Hibernate `SessionFactory`)		
 - Logger
 - Configuration Manager
 - Cache Manager
 
+![[Pasted image 20260304194637.png]]

@@ -1,3 +1,6 @@
+
+# Software Architecture
+
 ==Software system එකක 
 **high-level structure**, **components**, **modules**, **their responsibilities**, සහ **how they interact with each other** describe කරන design model එක.==
 
@@ -86,44 +89,166 @@ There are two ways,
 
 ---
 ## Software Quality Attributes
+==**Software Quality Attributes** කියන්නේ software system එකේ **non-functional characteristics**.==
+	
+	Quality Attributes = Software system එකේ quality measure කරන properties
 
+Why used ? 
+		- System **performance evaluate** කරන්න  
+		- Software **architecture design guide** කරන්න  
+		- **User satisfaction** ensure කරන්න  
+		- **System reliability** measure කරන්න
 
+#### Major Software Quality Attributes
+	-  Usability  
+	-  Performance  
+	-  Reliability  
+	-  Security  
+	-  Maintainability  
+	-  Scalability  
+	-  Availability  
+	-  Portability
+
+| Internal        | External        |
+| --------------- | --------------- |
+| Code quality    | User experience |
+| Architecture    | Performance     |
+| Maintainability | Usability       |
+| Modularity      | Reliability     |
+
+---
+## Main Purpose 
+
+**System structure define කිරීම**
+- System එක කොටස් වලට divide කරනවා
+	Example: 
+		UI, Business Logic, Database
+
+**Maintainability improve කිරීම**
+- Code easily modify කරන්න පුළුවන්
+
+**Scalability**
+- System එක users වැඩි උනත් run වෙන්න පුළුවන්
+
+**Performance optimize කිරීම**
+- Components efficient ලෙස communicate කරනවා
+
+**Team development support**
+- Different developers different modules develop කරන්න පුළුවන්
+
+---
+## Common Software Architecture Types
+
+| Architecture  | Best For                  |
+| ------------- | ------------------------- |
+| Layered       | Enterprise applications   |
+| Client-Server | Web systems               |
+| MVC           | UI based applications     |
+| Microservices | Large distributed systems |
+| Monolithic    | Small applications        |
+
+1. Layered Architecture (N-Tier Architecture)
+		[[Layered Architecture]]
+2. Client-Server Architecture
+		[[Client-server Architecture]]
+3. MVC Architecture (Model-View-Controller)
+		[[MVC Architecture]]
+4. Micro-services Architecture
+		[[Micro-service]]
+5. Monolithic Architecture
+		[[Monolithic]]
 
 
 ---
-## Main Purpose of Software Architecture
 
-###### ==System Structure define.==
-	System එක Modules වලට Divide කරනවා.
-			UI Layer
-			Business Logic Layer
-			Data Access Layer
-			Database
+# Design Patterns
 
-###### ==Complexity Manage.==
-	Large systems වල thousands of classes තියෙනවා.
-	
-	Architecture help කරනවා:
-	- System understandable වෙන්න
-	- Structure maintain කරන්න
-	
-###### ==Development guide.==
-	Developer ට guideline එකක් ලැබෙනවා.
-		Controller → Service → DAO → Database
-		
-###### ==Scalability Support.==
-	Future growth handle කරන්න architecture important.
-		- Microservices	    
-		- Layered architecture
+==Software development වල 
+frequently occur වෙන problems solve කරන්න developers භාවිතා කරන 
+**reusable solution template** එකක්.==
 
-###### ==Maintainability.==
-	System update කරනකොට
-		- bugs fix	    
-		- new features add
-	
+==**Common software design problems solve කරන්න reusable solution model එකක්**.==
 
+### Why use
+Software systems develop කරනකොට **same problems repeatedly occur වෙනවා**.
+	- Object create කිරීම.
+	- Object communication
+	- Code reuse
+	- Dependency manage කිරීම
 
+Design patterns මේ problems **standardized method එකකින් solve කරනවා**.
 
+## Types of Design Patterns
+
+### Creational Design Patterns
+==**Creational Design Patterns** කියන්නේ  **new objects create** කරන process manage කරන patterns.==
+	- Object creation control කරන්න.
+	- Object instantiation flexible කරන්න.
+	- System loosely coupled කරන්න.
+
+|Pattern|Purpose|
+|---|---|
+|Singleton|Only one object create|
+|Factory Method|Object creation delegate|
+|Abstract Factory|Related objects create|
+|Builder|Complex object build step-by-step|
+|Prototype|Existing object copy|
+
+1. Singleton Design Pattern
+	 [[Singleton Design Pattern]]
+2. Factory Design Pattern 
+	 [[Factory Design Pattern]]
+3. Facade Design Pattern
+	[[Facade Design Pattern]]
+4. Strategy Design Pattern
+	[[Strategy Design Pattern]]
+
+### Structural Design Patterns
+==**Structural Design Patterns** කියන්නේ **classes සහ objects structure organize කරන patterns**.==
+	Large systems වල
+	- classes
+	- objects
+	relationship manage කරන්න.
+
+| Pattern   | Purpose                         |
+| --------- | ------------------------------- |
+| Adapter   | Incompatible interfaces connect |
+| Bridge    | Implementation separate         |
+| Composite | Tree structure represent        |
+| Decorator | Object functionality extend     |
+| Facade    | Simplified interface            |
+| Flyweight | Memory usage reduce             |
+| Proxy     | Access control                  |
+
+### Behavioral Design Patterns
+==**Behavioral Design Patterns** කියන්නේ **objects අතර communication manage කරන patterns**.==
+
+| Pattern                 | Purpose                  |
+| ----------------------- | ------------------------ |
+| Observer                | Event notification       |
+| Strategy                | Algorithm selection      |
+| Command                 | Request encapsulation    |
+| Iterator                | Collection traversal     |
+| Mediator                | Communication control    |
+| Memento                 | Object state save        |
+| State                   | Object behaviour change  |
+| Template Method         | Algorithm structure      |
+| Visitor                 | Operation extension      |
+| Interpreter             | Language grammar process |
+| Chain of Responsibility | Request chain            |
+
+---
+### Summary Table of Design Patterns types
+
+| Category   | Main Purpose         |
+| ---------- | -------------------- |
+| Creational | Object creation      |
+| Structural | Object structure     |
+| Behavioral | Object communication |
+|            |                      |
+
+---
+### Architectures vs Design Patterns
 
 | Software Architecture         | Design Pattern              |
 | ----------------------------- | --------------------------- |
