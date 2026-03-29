@@ -1,6 +1,7 @@
 # Web technologies
 ==🌐 Web site එකක් හෝ Web application එකක් build කරන්න අවශ්‍ය සියලුම technologies එකතුව.==
-Web Technologies කියන්නේ Internet මත Web Applications සහ Web Sites නිර්මාණය, maintain සහ ක්‍execute කිරීම සඳහා use කරන technologies, languages, protocols සහ tools එකතුවයි.
+
+Internet මත Web Applications සහ Web Sites නිර්මාණය, maintain සහ execute කිරීම සඳහා use කරන technologies, languages, protocols සහ tools එකතුවයි.
 
 ## Major Categories	
 ### Front-end Technologies
@@ -23,8 +24,9 @@ Web Technologies කියන්නේ Internet මත Web Applications සහ W
 ---
 
 # Internet Technologies
-==💻📡 Devices අතර information හුවමාරු කරන්න භාවිතා කරන technology system එක.==
-Internet Technologies කියන්නේ ලෝකය පුරා devices එකිනෙකට connect කර data communicate කිරීමට use කරන protocols, standards, hardware සහ software technologies එකතුවයි.
+==💻📡 Devices අතර information transfer කරන්න use කරන technology system එක.==
+
+ලෝකය පුරා devices එකිනෙකට connect කර data communicate කිරීමට use කරන protocols, standards, hardware සහ software technologies එකතුවයි.
 
 ## Main Components
 ==Internet එක work වෙන්නේ **component systems කිහිපයක් එකට combine වෙලා**.==

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Architecture and design patterns 1/Design Pattern/Factory Design Pattern.md",
+                "file": "Web Technologies/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Factory Design Pattern"
+              "title": "Introduction"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "97b583589d797a0e",
   "lastOpenFiles": [
+    "Networking/Data Communication.md",
+    "Software Architecture and design patterns 1/Design Pattern/Factory Design Pattern.md",
     "Pasted image 20260304204147.png",
     "Pasted image 20260304204104.png",
     "Pasted image 20260304204041.png",
@@ -192,7 +194,6 @@
     "Pasted image 20260304202616.png",
     "Pasted image 20260304202558.png",
     "Software Architecture and design patterns 1/Design Pattern/Singleton Design Pattern.md",
-    "Software Architecture and design patterns 1/Design Pattern/Factory Design Pattern.md",
     "Software Architecture and design patterns 1/Software architecture and Design pattern 1.md",
     "Software Architecture and design patterns 1/Design Pattern/Facade Design Pattern.md",
     "Software Architecture and design patterns 1/Design Pattern/Strategy Design Pattern.md",
@@ -211,7 +212,6 @@
     "Software Engineering/Waterfall.md",
     "Software Engineering/Software Engineering.md",
     "Software Engineering",
-    "Networking/Data Communication.md",
     "Software Architecture and design patterns 1/Software Architecture",
     "Networking/Assets",
     "Networking/Assets/DataCommunication_image.png",
@@ -226,7 +226,6 @@
     "Web Technologies/CSS/CSS.md",
     "Web Technologies/Introduction.md",
     "Web Technologies/Assest/Pasted image 20260212221431.png",
-    "Web Technologies/Assest/Pasted image 20260212222503.png",
     "Web Technologies/Assest/Unconfirmed 29789.crdownload",
     "Web Technologies/HTML/Elements.md",
     "Welcome.md"
