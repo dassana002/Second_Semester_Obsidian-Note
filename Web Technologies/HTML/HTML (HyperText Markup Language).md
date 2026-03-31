@@ -38,6 +38,60 @@ Browser එකකට modes දෙකක් තියෙනවා:
 ![[Pasted image 20260331192829.png]]
 
 
+
+---
+
+![[Capture.PNG]]
+
+```
+<html lang = "en">
+```
+මෙම webpage එකේ,
+**Content English language එකෙන් ලියලා තියෙනවා** කියලා browser එකට කියන එක.
+###### Purpose
+`lang` attribute එක browser, search engine, screen reader වලට help කරනවා.
+
+```
+<meta charset="UTF-8">
+```
+මෙම webpage එකේ,
+**Text characters UTF-8 encoding එකෙන් ලියලා තියෙනවා.** ඒ අනුව text display කරන්න.
+###### Purpose
+1. All languages support වෙනවා
+2. Text errors prevent වෙනවා
+3. Standard encoding
+
+# head Element
+==`<head>` element එක, 
+**HTML document එකක meta data** (page එක ගැන information) අඩංගු කරන කොටසයි.==
+
+==browser එකට සහ search engines වලට ( meta data ) information දෙන section එක.==
+`<head>` section එක userට directly පෙනෙන්නේ නෑ.
+
+### title element
+==Web page එකේ title එක define කරන element එක.==
+![[Pasted image 20260211144017.png]]
+### meta Element 
+==Web page එක ගැන metadata (data about data) define කරන element එක==.
+![[Pasted image 20260211144640.png]]
+✔ Sinhala / English / Special characters support කරන්න
+✔ Mobile devices වල responsive layout
+✔ Google search result description
+
+### link Element
+==External resource එකක් HTML document එකට link කරන element එක.==
+![[Pasted image 20260211144845.png]]
+
+### style Element
+==Internal CSS code ලියන්න use කරන element එක.==
+![[Pasted image 20260211145042.png]]
+
+### script element
+==JavaScript code add කිරීම සඳහා use කරන element එක.==
+![[Pasted image 20260331231734.png|414]]
+
+
+
 ---
 
 # HTML Element
@@ -72,39 +126,9 @@ Closing tag නෑ.==
 
 ![[Pasted image 20260212211318.png]]
 
----
-
-# head Element
-==`<head>` element එක, 
-**HTML document එකක meta data** (page එක ගැන information) අඩංගු කරන කොටසයි.==
-
-==browser එකට සහ search engines වලට information දෙන section එක.==
-`<head>` section එක userට directly පෙනෙන්නේ නෑ.
-
-### title element
-==Web page එකේ title එක define කරන element එක.==
-![[Pasted image 20260211144017.png]]
-### meta Element 
-==Web page එක ගැන metadata (data about data) define කරන element එක==.
-![[Pasted image 20260211144640.png]]
-✔ Sinhala / English / Special characters support කරන්න
-✔ Mobile devices වල responsive layout
-✔ Google search result description
-
-### link Element
-==External resource එකක් HTML document එකට link කරන element එක.==
-![[Pasted image 20260211144845.png]]
-
-### style Element
-==Internal CSS code ලියන්න use කරන element එක.==
-![[Pasted image 20260211145042.png]]
-
-### script element
-==JavaScript code add කිරීම සඳහා use කරන element එක.==
-![[Pasted image 20260211145211.png]]
-
 
 ---
+
 
 # Favicon Icon
 ==Tab එකේ title එකට ඉස්සරහින් තියෙන කුඩා image එක තමයි **favicon**.==
