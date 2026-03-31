@@ -1,19 +1,19 @@
 ![[DataCommunication_image.png]]
 
-==Devices දෙකක් (sender & receiver) අතර Data exchange වෙන process එක.==
-The exchange of data between two or more devices via a transmission medium using protocols.
-
+==Devices (Node) දෙකක් (sender & receiver) අතර Data exchange වෙන process එක.==
+The exchange of data between two or more devices via a **Transmission medium using protocols**.
+	
 ==**Direction** කියන්නේ data flow වෙන way එක.==
 #### Main purposes:
-1. Information sharing (e.g., email, WhatsApp)
-2. Resource sharing (printer, database)
+1. **Data sharing** (e.g., email, WhatsApp)
+2. **Resource sharing** (printer, database)
 3. Remote access (server, cloud)
-4. Real-time communication (video call)
+4. Real-time **Communication** (video call)
 5. Distributed systems (client-server architecture)
 
 #### Main Components
-1. ==Source==
-2. ==Receiver==
+1. ==Source== (Node)
+2. ==Receiver== (Node)
 3. ==Medium==
 4. ==Message== 
 5. ==Protocol (Rules)==
@@ -47,6 +47,35 @@ The exchange of data between two or more devices via a transmission medium using
 - FTP
 - SMTP
 Without protocol → communication fails.
+
+
+# Node
+==**Node** කියන්නේ **network එකට connect වෙලා Data send / receive කරන device එකක් හෝ point එකක්**.==
+Network එකේ communicate කරන **any device = Node**
+
+
+# Types of Networks
+==Computer network එක **size** සහ **coverage area (ආවරණය කරන දුර)** අනුව types වලට divide කරනවා.==
+
+### PAN - Personal Area Network
+==**Single person කෙනෙක්ට ආසන්න devices connect කරන small network එක**.==
+Coverage Area - 📏 1 – 10 meters (short distance)
+
+![[personal-area-network-pan.webp]]
+
+### LAN - Local Area Network
+==Small area එකක devices connect කරන network එක.==
+Coverage Area - Room / building / school / office
+![[NIMG.png]]
+### MAN (Metropolitan Area Network)
+==**City size network එකක්**.==
+Coverage area - town/ city
+![[article-header.avif]]
+### WAN (Wide Area Network)
+==**Very large area cover කරන network එක**.==
+Coverage area - country / world
+![[pngtree-global-network-connection-illustration-showing-data-transfer-around-world-with-clouds-png-image_18517364.webp]]
+
 
 # Data communication types
 - Simplex

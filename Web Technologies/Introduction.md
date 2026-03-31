@@ -1,35 +1,38 @@
-# Web technologies
-==🌐 Web site එකක් හෝ Web application එකක් build කරන්න අවශ්‍ය සියලුම technologies එකතුව.==
-
-Internet මත Web Applications සහ Web Sites නිර්මාණය, maintain සහ execute කිරීම සඳහා use කරන technologies, languages, protocols සහ tools එකතුවයි.
-
-## Major Categories	
-### Front-end Technologies
-- **HTML** → Structure
-- **CSS** → Design / Styling
-- **JavaScript** → Interactivity
-
-### Back-end Technologies (Server-Side)
-- PHP
-- Java (Spring)
-- Node.js
-- Python (Django)
-
-### Database Technologies
-- MySQL
-- PostgreSQL
-- MongoDB
-
-
----
+👉 Internet නැත්නම් Web එක run වෙන්න බෑ.  
+👉 Web කියන්නේ Internet එක භාවිතා කරන service එකක්.
 
 # Internet Technologies
-==💻📡 Devices අතර information transfer කරන්න use කරන technology system එක.==
 
-ලෝකය පුරා devices එකිනෙකට connect කර data communicate කිරීමට use කරන protocols, standards, hardware සහ software technologies එකතුවයි.
+**Computers එකිනෙකට connect කරලා ,
+	==Data exchange ==කිරීම, 
+	==websites develop== කිරීම, 
+	==communication== කිරීම සහ 
+	==online services run ==කිරීම 
+	සඳහා ==use කරන Technologies, protocols, tools සහ frameworks එකතුව**.==
 
+Internet = global network of computers
+
+## Network Protocols
+==**Computer devices අතර data communicate කරන්න use කරන Rules set එකක්**.==
+
+## Purpose
+- 🌐 Websites create කරන්න (portfolio site වගේ)
+- 📡 Data share කරන්න (server ↔ browser)
+- 💬 Communication (Email, Chat apps)
+- 🛒 E-commerce systems develop කරන්න
+- 📱 Web applications build කරන්න (Facebook, YouTube)
+- 🔐 Secure data transfer (HTTPS)
+
+
+## Main Categories of Internet Technologies
+
+| Technology     | Use                                 |
+| -------------- | ----------------------------------- |
+| **HTML**       | Web page structure create කිරීම     |
+| **CSS**        | Design & layout                     |
+| **JavaScript** | Interactivity (buttons, animations) |
 ## Main Components
-==Internet එක work වෙන්නේ **component systems කිහිපයක් එකට combine වෙලා**.==
+Internet එක work වෙන්නේ **component systems කිහිපයක් එකට combine වෙලා**.
 ### Communication Protocols (Internet Protocol) -> IP
 ==Devices අතර data communicate කරන **rules & standards set එකක්**.==
 
@@ -60,6 +63,34 @@ IP address = Home address of device
 ### Addressing & Naming System (DNS)
 ==DNS converts domain names into IP addresses.==
 	google.com → 142.250.190.78
+
+# Web technologies
+
+Internet මත Web Sites, 
+	==**Build, 
+	maintain, 
+	and execute කිරීම 
+	සඳහා use කරන, 
+	Technologies, languages, protocols and tools එකතුවයි.==**
+
+## Major Categories	
+### Front-end Technologies
+- **HTML** → Structure
+- **CSS** → Design / Styling
+- **JavaScript** → Interactivity
+
+### Back-end Technologies (Server-Side)
+- PHP
+- Java (Spring)
+- Node.js
+- Python (Django)
+
+### Database Technologies
+- MySQL
+- PostgreSQL
+- MongoDB
+
+---
 
 
 
