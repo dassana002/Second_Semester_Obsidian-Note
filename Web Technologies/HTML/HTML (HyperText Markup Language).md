@@ -6,7 +6,7 @@ standard mark-up ==language එකක්.==
 
 ---
 # <!**DOCTYPE**  html>
-browser එකට 
+browser එකට,
 ==මේ file එක, **HTML5 Standard document** එකක්,  ඒ rules අනුව page එක display (render) කරන්න==
 කියලා කියන ==declaration== එකක්.
 
@@ -27,6 +27,13 @@ Browser එකකට modes දෙකක් තියෙනවා:
  `<!DOCTYPE html>` නැතිනම්:
 - Browser එක **Quirks Mode** වලට යනවා
 - Layout issues එනවා
+
+#### Main purposes
+1. HTML version එක identify කරනවා
+2. Browser rendering errors avoid කරනවා
+3. CSS layout correctly apply වෙනවා
+4. Old browser compatibility maintain කරනවා
+5. Standards Mode enable කරනවා
 
 ![[Pasted image 20260331192829.png]]
 
