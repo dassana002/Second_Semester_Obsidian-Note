@@ -249,12 +249,57 @@ HTML වල **hyperlink create කරන්න use කරන tag එක**.
 
 ---
 ## Non-Semantic
-==content එකේ meaning එකක් දක්වන්නේ නැති, structure හෝ styling purpose සඳහා භාවිතා කරන elements.==
+==content එකේ meaning එකක් දක්වන්නේ නැති, 
+structure හෝ styling purpose සඳහා use කරන elements.==
 
 ### div tag
+==Webpage එකේ **sections / layout parts group** කරන්න use කරනවා.==
+
+`<div>` = large container (box)
+
+`<div>` use කරන්නේ:
+- webpage layout structure create කරන්න
+- multiple elements group කරන්න
+- CSS apply කරන්න
+- JavaScript manipulate කරන්න
+- sections divide කරන්න
+
+```
+<div>
+   <h1>Title</h1>
+   <p>Description</p>
+</div>
+```
+### span tag
+==small text part **style change** කරන්න use කරනවා.==
+
+👉 `<span>` = small container
+
+`<span>` use කරන්නේ:
+- sentence inside specific word highlight කරන්න
+- text colour change කරන්න
+- font style change කරන්න
+- small part group කරන්න
+
+| Feature      | `<div>`       | `<span>`             |
+| ------------ | ------------- | -------------------- |
+| element type | block         | inline               |
+| size         | full width    | content width        |
+| new line     | yes           | no                   |
+| use          | large section | small part           |
+| layout       | structure     | styling              |
+| contain      | many elements | text/inline elements |
 
 
-# HTML Element
+---
+
+# Section
+
+
+
+
+
+
 
 
 [[CSS]]
