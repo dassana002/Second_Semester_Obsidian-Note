@@ -51,15 +51,6 @@ Browser එකකට modes දෙකක් තියෙනවා:
 ###### Purpose
 `lang` attribute එක browser, search engine, screen reader වලට help කරනවා.
 
-```
-<meta charset="UTF-8">
-```
-මෙම webpage එකේ,
-**Text characters UTF-8 encoding එකෙන් ලියලා තියෙනවා.** ඒ අනුව text display කරන්න.
-###### Purpose
-1. All languages support වෙනවා
-2. Text errors prevent වෙනවා
-3. Standard encoding
 
 # head Element
 ==`<head>` element එක, 
@@ -72,11 +63,35 @@ Browser එකකට modes දෙකක් තියෙනවා:
 ==Web page එකේ title එක define කරන element එක.==
 ![[Pasted image 20260211144017.png]]
 ### meta Element 
-==Web page එක ගැන metadata (data about data) define කරන element එක==.
+==HTML document එක ගැන **extra information (metadata)** provide කරන tag එකක්..==
+
+👉 Metadata = data about data  
+👉 user ට page එකේ visible වෙන්නේ නෑ  
+👉 browser, search engine, devices වලට information දෙනවා
+
+Meta tag helps:
+- browser එකට page එක display කරන්න
+- search engine වලට page එක understand කරන්න
+- mobile responsive behaviour control කරන්න
+- page description provide කරන්න
+- character encoding define කරන්න
+
+```
+<meta charset="UTF-8">
+```
+මෙම webpage එකේ,
+**Text characters UTF-8 encoding එකෙන් ලියලා තියෙනවා.** ඒ අනුව text display කරන්න.
+###### Purpose
+1. All languages support වෙනවා
+2. Text errors prevent වෙනවා
+3. Standard encoding
+
 ![[Pasted image 20260211144640.png]]
 ✔ Sinhala / English / Special characters support කරන්න
 ✔ Mobile devices වල responsive layout
 ✔ Google search result description
+
+
 
 ### link Element
 ==External resource එකක් HTML document එකට link කරන element එක.==
@@ -108,20 +123,18 @@ Browser එකකට modes දෙකක් තියෙනවා:
 ![[Pasted image 20260211140855.png]]
 #### Inline-level Elements
 ==Line එක බිඳින්නේ නැතිව, same line එකේ content පෙන්වන elements.
-Text එක අතරමැද වැඩ කරන elements.
 new line එකක් create කරන්නේ නෑ.==
 ![[Pasted image 20260211140811.png]]
 #### Block-level Elements
 ==Always new line එකකින් start වෙලා, 
-full width එකක් ගන්න elements block-level elements කියනවා.==
+full width එකක් ගන්න elements 
+block-level elements කියනවා.==
 ![[Pasted image 20260211140736.png]]
 
 #### Empty / Void Elements
 ==Content එකක්වත් closing tag එකක්වත් නැති HTML elements.
-Opening tag එක විතරයි, 
-
 ==ඇතුළේ content නෑ, 
-Closing tag නෑ.==
+Closing tag නෑ.
 ![[Pasted image 20260211140611.png]]
 
 ![[Pasted image 20260212211318.png]]
@@ -149,14 +162,14 @@ Closing tag නෑ.==
 
 ![[semantic_photo.webp]]
 
-## Semantic
+## Semantic Tags
 ==element එකේ name එකෙන්ම එය represent කරන content එකේ meaning එක පැහැදිලිව දක්වන elements.==
-==Semantic elements කියන්නේ content එකේ meaning browser එකට සහ developers ට පැහැදිලිව කියන HTML tags.==
+**Content එකේ meaning browser එකට සහ developers ට පැහැදිලිව කියන HTML tags.**
 
 ==Text එක **just display කරනවා නෙමෙයි**==  
 ==Text එක **meaningfully define කරනවා==
 
-### Heading Tags 
+### Heading Tag 
 ==**Heading hierarchy** define කරන්න use වෙන tags.==
 ==Heading tags කියන්නේ font size control කරන්නම නෙමෙයි.==
 ==ඒවා indicate කරන්නේ:  Document structure hierarchy==
@@ -184,11 +197,15 @@ Usually italic ලෙස show වෙනවා.
 ==Displays text **exactly as written**.==
 - Preserves spaces
 - Preserves line breaks
+Text එක **original formatting** (spaces, tabs, line breaks) browser එකේ show වෙනවා.
+
 ![[Pasted image 20260212221431.png]]
 ![[Pasted image 20260212221502.png]]
 
 ### Code Tag
 ==Indicates computer code.==
+මෙය **computer code fragment** (programming code words, syntax) indicate කරන්න use කරනවා.
+
 ![[Pasted image 20260212221630.png]]
 ![[Pasted image 20260212221656.png]]
 ### Address Tag
@@ -199,6 +216,11 @@ Usually italic ලෙස show වෙනවා.
 ![[Pasted image 20260212221957.png]]
 ### Blockquote Tag
 ==Used for long quotations.==
+මෙය **long quotation (දිග quote)** indicate කරන්න use කරනවා.
+
+Browser එකට කියනවා:
+මෙම text එක වෙන source එකකින් quote කරපු content එකක්.
+
 ![[Pasted image 20260212222203.png]]
 ### Mark Tag
 ==Highlight text.==
@@ -206,12 +228,33 @@ Usually italic ලෙස show වෙනවා.
 ![[Pasted image 20260212222503.png]]
 
 
+### Anchor tag
+HTML වල **hyperlink create කරන්න use කරන tag එක**.
+###### HyperLink
+	click කළාම user,
+එක වෙන page එකකට, file එකකට, section එකකට හෝ website එකකට ගෙනියන clickable connection එකක්.
+	Hyperlink = clickable link
+
+`href` attribute එක භාවිතා කරන්නේ **link එක යන්න ඕන destination (URL) specify කරන්න**.
+`target` attribute එක භාවිතා කරන්නේ **link එක open වෙන්න ඕන place එක specify කරන්න**.
+
+| Value             | Meaning (English)     | සිංහල පැහැදිලි කිරීම                               | Example                                                   |
+| ----------------- | --------------------- | -------------------------------------------------- | --------------------------------------------------------- |
+| `_self` (default) | Opens in same tab     | same tab/window එකේ open වෙනවා (default behaviour) | `<a href="page.html" target="_self">Open</a>`             |
+| `_blank`          | Opens in new tab      | new tab එකක් open වෙනවා                            | `<a href="https://google.com" target="_blank">Google</a>` |
+| `_parent`         | Opens in parent frame | parent frame එකේ open වෙනවා                        | `<a href="page.html" target="_parent">Open</a>`           |
+|`_top`|Opens in full window|full browser window එකේ open වෙනවා|`<a href="page.html" target="_top">Open</a>`|
+
+
+
+---
 ## Non-Semantic
-==Non-semantic elements කියන්නේ content එකේ meaning එකක් දක්වන්නේ නැති, structure හෝ styling purpose සඳහා භාවිතා කරන elements.
-Non-semantic elements කියන්නේ tag name එකෙන් content meaning එක තේරෙන්නේ නැති HTML elements.==
+==content එකේ meaning එකක් දක්වන්නේ නැති, structure හෝ styling purpose සඳහා භාවිතා කරන elements.==
+
+### div tag
 
 
-
+# HTML Element
 
 
 [[CSS]]
