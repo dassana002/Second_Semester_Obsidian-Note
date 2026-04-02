@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe5fef3bef6eae36",
+        "id": "2c3a3ba864ce36e5",
         "type": "tabs",
         "children": [
           {
-            "id": "97b583589d797a0e",
+            "id": "2b15b66599013d14",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,8 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "97b583589d797a0e",
+  "active": "2b15b66599013d14",
   "lastOpenFiles": [
+    "Web Technologies/Assest/semantic_photo.webp",
+    "Web Technologies/Assest/sectioning.jpg",
+    "Web Technologies/Assest/Unconfirmed 904554.crdownload",
+    "Web Technologies/HTML/HTML (HyperText Markup Language).md",
     "Pasted image 20260331231734.png",
     "Pasted image 20260331230443.png",
     "Web Technologies/Assest/Capture.PNG",
@@ -192,7 +196,6 @@
     "Networking/Network.md",
     "Networking/Assets/pngtree-global-network-connection-illustration-showing-data-transfer-around-world-with-clouds-png-image_18517364.webp",
     "Networking/Assets/Unconfirmed 35230.crdownload",
-    "Web Technologies/HTML/HTML (HyperText Markup Language).md",
     "Networking/Assets/article-header.avif",
     "Networking/Assets/Unconfirmed 610768.crdownload",
     "Networking/Assets/NIMG.png",
@@ -203,8 +206,6 @@
     "Web Technologies/CSS/CSS.md",
     "Software Architecture and design patterns 1/Design Pattern/Factory Design Pattern.md",
     "Web Technologies/Assest/Pasted image 20260304204147.png",
-    "Web Technologies/Assest/Pasted image 20260304204104.png",
-    "Web Technologies/Assest/Pasted image 20260304204041.png",
     "Software Architecture and design patterns 1/Design Pattern/Singleton Design Pattern.md",
     "Software Architecture and design patterns 1/Software architecture and Design pattern 1.md",
     "Software Architecture and design patterns 1/Design Pattern/Facade Design Pattern.md",
@@ -227,7 +228,6 @@
     "Networking/Unconfirmed 716865.crdownload",
     "Networking",
     "Server",
-    "Software Architecture and design patterns 1/Design Pattern",
     "ORM Concept/Object Relational Mapping.md",
     "Web Technologies/HTML/Elements.md",
     "Welcome.md"
