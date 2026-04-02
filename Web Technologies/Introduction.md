@@ -92,9 +92,4 @@ Internet මත Web Sites,
 
 ---
 
-
-
-
-
-
 [[HTML (HyperText Markup Language)]]
