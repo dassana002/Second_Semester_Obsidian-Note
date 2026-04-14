@@ -102,3 +102,54 @@ let person = {
 ---
 
 # type of Operator()
+==variable type check කරන්න.==
+```
+console.log(typeof 10); 
+console.log(typeof "hello");
+console.log(typeof true);
+```
+
+
+
+---
+මෙය **JavaScript වල very important concept** එකක්.  
+==**Loosely typed** සහ **Dynamically typed** කියන්නේ **Data Types handle කරන විදිහ** ගැන.==
+
+|concept|meaning|
+|---|---|
+|loosely typed|variable type easily change කරන්න පුළුවන්|
+|dynamically typed|type runtime වෙලාවේ decide වෙනවා|
+
+# Loosely typed language
+==variable එකට type එක **strict (fixed) කරලා lock කරලා නැති language එකක්**.==
+
+same variable එකට **different data types assign කරන්න පුළුවන්**.
+```
+let x = 10;      // number
+x = "hello";     // string
+x = true;        // boolean
+```
+
+# Dynamically Typed Language
+==variable එකේ data type එක **runtime (program run වෙද්දි) decide වෙන එක**.==
+
+JavaScript program run වෙන වෙලාවේ  
+engine එක decide කරනවා:
+	මෙය number ද?  
+	string ද?  
+	Boolean ද?
+
+```
+let data;
+
+data = 100;
+console.log(typeof data);
+
+data = "hello";
+console.log(typeof data);
+```
+
+
+---
+
+
