@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Technologies/HTML/Table.md",
+                "file": "Web Technologies/JS/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Table"
+              "title": "Introduction"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "6cfc85c02835a05a",
@@ -185,12 +185,16 @@
   },
   "active": "2b15b66599013d14",
   "lastOpenFiles": [
+    "Web Technologies/JS/DOM.md",
+    "Web Technologies/JS/Introduction.md",
+    "Web Technologies/HTML/Table.md",
+    "Web Technologies/JS",
+    "Web Technologies/HTML/Element.md",
+    "Web Technologies/HTML/List.md",
     "Web Technologies/HTML/Section.md",
     "Web Technologies/HTML/Semantic and Non-Semantic.md",
-    "Web Technologies/HTML/Element.md",
     "Web Technologies/HTML/HTML (HyperText Markup Language).md",
     "Web Technologies/Introduction.md",
-    "Web Technologies/HTML/Table.md",
     "Web Technologies/Assest/table.jpg",
     "Web Technologies/Assest/Unconfirmed 95548.crdownload",
     "Web Technologies/Assest/semantic_photo.webp",
@@ -223,13 +227,9 @@
     "Software Architecture and design patterns 1/Software Architecture/Layered Architecture.md",
     "Server/Server.md",
     "Software Architecture and design patterns 1/Software Architecture and Design Patterns 1.md",
-    "Software Engineering/Agile.md",
-    "Software Engineering/Waterfall.md",
-    "Software Engineering/Software Engineering.md",
     "Software Engineering",
     "Software Architecture and design patterns 1/Software Architecture",
     "Networking/Assets",
-    "Networking/Unconfirmed 716865.crdownload",
-    "Networking"
+    "Networking/Unconfirmed 716865.crdownload"
   ]
 }
