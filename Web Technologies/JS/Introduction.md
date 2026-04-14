@@ -162,10 +162,11 @@ fetch("data.json")
 data load වෙනකම් page freeze වෙන්නේ නැහැ.
 
 
-|Feature|Simple idea|
-|---|---|
-|Dynamic behavior|page reload නැතුව change|
-|Client-side|browser run|
-|Server-side|server run|
-|DOM manipulation|HTML change|
-|Asynchronous|background tasks|
+| Feature          | Simple idea              |
+| ---------------- | ------------------------ |
+| Dynamic behavior | page reload නැතුව change |
+| Client-side      | browser run              |
+| Server-side      | server run               |
+| DOM manipulation | HTML change              |
+| Asynchronous     | background tasks         |
+[[Variable]]
